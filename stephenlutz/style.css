@@ -1,0 +1,61 @@
+html, body  {
+    text-align: center;
+    margin;  0 auto;
+}
+
+html {
+    background-image: url("bubbles.jpg");
+}
+
+@font-face {
+    font-family: 'glass houses';
+    src: url(fonts/glashou.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'megatron';
+    src: url(fonts/megatron.otf);
+    font-style: normal;
+    font-weight; 100;  
+}
+
+h1 {
+    font-family: 'glass houses';
+    font-weight; 100;
+    font-size: 365%;
+    margin-top:30px;
+    margin-bottom:7px;
+}
+
+h2 {
+    font-family: 'megatron';
+    src: url(fonts/megatron.otf);
+    font-weight; 100;
+    font-size: 150%;
+    margin-top:10px;
+}
+
+body, p {
+    font-family: 'arial';
+    font-style: italic;
+}
+
+p {
+    font-size: 115%;
+}
+
+
+
+
+h1 {
+	color: white;
+}
+
+audio {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 50;
+	opacity: 0;
+}
